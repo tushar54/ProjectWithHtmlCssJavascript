@@ -16,3 +16,34 @@ header p{
     padding: 10px;
     cursor: pointer;
 }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:0;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    background-color:yellow;
+    color: #000000;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    height: 5000px;
+}
+@media screen and (max-width: 200px){
+    header{
+        display: block;
+    }
+}
